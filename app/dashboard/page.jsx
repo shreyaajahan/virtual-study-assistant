@@ -1,8 +1,11 @@
 import React from 'react';
+import WelcomeBanner from './_components/WelcomeBanner';
 
 function Dashboard({ children }) {
   return (
-    <div>{children}</div>
+    <div>
+      <WelcomeBanner/>
+    </div>
   );
 }
 
